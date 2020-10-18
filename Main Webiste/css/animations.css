@@ -1,9 +1,8 @@
 .header__svg {
     position: absolute;
-    top: 0;
+    top: 7px;
     right: 0;
     left: 0;
-    bottom: 0;
     -webkit-animation: bigger 3s infinite;
             animation: bigger 3s infinite;
     margin: 7rem auto;
