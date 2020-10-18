@@ -16,17 +16,6 @@
             transform-origin: 50% 50%;
   }
   
-  @-webkit-keyframes rotating {
-    from {
-      -webkit-transform: rotate(8deg);
-              transform: rotate(8deg);
-    }
-    to {
-      -webkit-transform: rotate(720deg);
-              transform: rotate(720deg);
-    }
-  }
-  
   @keyframes rotating {
     from {
       -webkit-transform: rotate(8deg);
@@ -35,21 +24,6 @@
     to {
       -webkit-transform: rotate(720deg);
               transform: rotate(720deg);
-    }
-  }
-  
-  @-webkit-keyframes bigger {
-    from {
-      -webkit-transform: scale(1);
-              transform: scale(1);
-    }
-    50% {
-      -webkit-transform: scale(1.1);
-              transform: scale(1.1);
-    }
-    to {
-      -webkit-transform: scale(1);
-              transform: scale(1);
     }
   }
   
